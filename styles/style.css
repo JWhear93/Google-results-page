@@ -1,0 +1,153 @@
+html {
+	font-family: arial, sans-serif;
+	letter-spacing: 0;
+}
+
+.topnav a {
+	text-decoration: none;
+	color: dimgrey;
+}
+
+#top a:hover {
+	color: black;
+}
+
+.searchbox {
+	display: block;
+	position: relative;
+	top: -42px;
+	left: 130px;
+	margin: 0;
+	max-width: 630px;
+	max-height: 65px;
+	border-top: 1px solid #ccc9;
+	border-left: 1px solid #ccccccb3;
+	border-right: 1px solid #ccccccb3;
+	border-radius: 1px;
+	-o-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 2px 5px 2px 5px;
+	box-shadow: 0 2px 2px 0 #ccc;
+}
+
+.searchbox input {
+	width: 570px;
+	height: 35px;
+	border: medium none;	
+}
+
+.topa {	
+	height: 60px;
+	padding: 20px 10px 10px 15px;
+}
+
+.logo {
+	display: block;
+	width: 120px;
+}
+
+.topnav {
+	word-spacing: 20px;
+	height: 30px;
+	border-bottom: 1px solid #80808033;
+	padding-bottom: 3px;
+}
+
+.topnav li {
+	font-size: 12px;
+}
+
+.topnav li, ul {
+	display: inline-block;
+}
+
+.nav1 {
+	margin-left: 160px;
+	height: 30px;
+}
+
+.nav2 {
+	margin-left: 100px;
+	height: 30px;
+}
+
+#tools {
+	padding: 6px 15px;
+	border: 1px solid white;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#tools:hover {
+	border: 1px solid grey;
+	color: grey;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#tools a:hover {
+	color: grey;
+}
+
+#all {
+	padding: 0 15px 10px 15px;
+	border-bottom: 3px solid #3695ff;
+	color: #3695ff;
+	font-weight: bold;
+}
+
+.sepbar {
+	margin-bottom: 20px;
+}
+
+.sepcont {
+	width: 250px;
+	margin: 20px 0 0 180px;
+	font-size: 12px;
+	color: grey;
+}
+
+.rescontent {
+	width: 640px;
+	margin-left: 160px;
+}
+
+.resarea {
+
+}
+
+h1 {
+	font-size: 18px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+.pl2 {
+	color: green;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.restext {
+	font-size: 13px;
+	color: #565656;
+	padding-bottom: 30px;
+	line-height: 1.3em;
+}
+
+.titles a {
+	text-decoration: none;
+}
+
+.titles a:hover {
+	text-decoration: underline;
+}
+
+#pref {
+	display: inline-block;
+}
