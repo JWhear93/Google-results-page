@@ -201,3 +201,44 @@ h2 {
 	color: blue;
 	text-decoration: underline;
 }
+
+.botnav {
+	height: 100px;	
+}
+
+.botnav li {
+	display: inline-block;
+	font-size: 12px;
+
+}
+
+.botnav a {
+	color: blue;
+}
+
+.botnav a:visited {
+	color: blue;
+}
+
+.logo2 {
+	display: block;
+	position: relative;
+	margin-left: 120px;
+}
+
+.botnavl1 {
+	margin-left: 180px;
+	word-spacing: 9px;
+}
+
+.botnavl2 {
+	margin-left: 55px;
+}
+
+#ten {
+	margin-left: -5px;	
+}
+
+.botnav a li:hover {
+	text-decoration: underline;
+}
