@@ -242,3 +242,11 @@ h2 {
 .botnav a li:hover {
 	text-decoration: underline;
 }
+
+.botnav a li {
+	color: #3695ff;
+}
+
+#one {
+	color: black;
+}
