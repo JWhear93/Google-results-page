@@ -96,7 +96,8 @@ a #sign-in:hover {
 .topnav {	
 	height: 30px;
 	border-bottom: 1px solid #80808033;
-	padding: 10px 0 3px 0;
+	padding: 10px 10px 3px 0;
+	min-width: 972px;
 }
 
 .topnav li {
@@ -305,4 +306,14 @@ h2 {
 
 a .searchimg:hover {
 	background: #5c83e0cc;
+}
+
+.cog {
+	display: inline-block;
+	float: right;
+	margin: -25px 0 0 0;
+	background: #cccccc4d;
+	border: 1px solid #ccccccb3;
+	padding: 2px 25px;
+	border-radius: 2px;
 }
