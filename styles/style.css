@@ -17,7 +17,7 @@ html {
 	position: relative;
 	top: -42px;
 	left: 130px;
-	margin: 0 0 0 5px;
+	margin: 5px 0 0 5px;
 	max-width: 630px;
 	max-height: 65px;
 	border-top: 1px solid #ccc9;
@@ -29,6 +29,7 @@ html {
 	-webkit-border-radius: 1px;
 	padding: 2px 5px 2px 10px;
 	box-shadow: 0 2px 2px 0 #ccc;
+	background: #fff;
 }
 
 .searchbox:hover {
@@ -42,19 +43,45 @@ html {
 }
 
 .topa {	
-	height: 60px;
-	padding: 20px 10px 10px 15px;
+	height: 45px;
+	padding: 10px 10px 10px 10px;
+	background: #cccccc4d;
+	border-bottom: 1px solid #80808033;
+}
+
+#sign-in {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	width: 60px;	
+	word-spacing: 0;
+	background-color: #5c83e0;
+	color: white;
+	padding: 9px 10px 9px 10px;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a #sign-in:hover {
+	background-color: #5c83e0cc;
 }
 
 .logo {
 	display: block;
-	width: 120px;
+	width: 100px;
+	padding-top: 5px;
 }
 
 .topnav {	
 	height: 30px;
 	border-bottom: 1px solid #80808033;
-	padding-bottom: 3px;
+	padding: 10px 0 3px 0;
 }
 
 .topnav li {
@@ -249,4 +276,18 @@ h2 {
 
 #one {
 	color: black;
+}
+
+.searchimg {
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	top: 13px;
+	left: 753px;
+	background: #5c83e0;
+	padding: 6px 5px 2px 5px;
+}
+
+a .searchimg:hover {
+	background: #5c83e0cc;
 }
