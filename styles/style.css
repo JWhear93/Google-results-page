@@ -317,3 +317,25 @@ a .searchimg:hover {
 	padding: 2px 25px;
 	border-radius: 2px;
 }
+
+.foot {
+	padding: 20px 0 20px 0;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+}
+
+.footl1 {	
+	margin: 0 0 0 160px;
+	padding: 0 0 0 5px;
+}
+
+.footl1 li {
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 12px;
+	color: #818181;
+}
+
+.footl1 li:hover {
+	color: black;
+}
