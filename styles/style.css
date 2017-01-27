@@ -1,6 +1,7 @@
 html {
 	font-family: arial, sans-serif;
 	letter-spacing: 0;
+	min-width: 962px;
 }
 
 .topnav a {
@@ -42,18 +43,28 @@ html {
 	border: medium none;	
 }
 
-.topa {	
+.topa {
+	display: block;
 	height: 45px;
+	min-width: 962px;
 	padding: 10px 10px 10px 10px;
 	background: #cccccc4d;
 	border-bottom: 1px solid #80808033;
 }
 
+.grid {
+	display: inline-block;
+	opacity: .55;
+	float: right;
+	margin: -73px 100px 0 0;
+}
+
+a .grid:hover {
+	opacity: 1;
+}
+
 #sign-in {
 	display: inline-block;
-	position: absolute;
-	right: 10px;
-	top: 15px;
 	width: 60px;	
 	word-spacing: 0;
 	background-color: #5c83e0;
@@ -66,11 +77,15 @@ html {
 	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
+	float: right;
+	margin: -78px 0 0 0;
 }
 
 a #sign-in:hover {
 	background-color: #5c83e0cc;
 }
+
+
 
 .logo {
 	display: block;
@@ -194,7 +209,7 @@ h1 {
 }
 
 .content {
-	min-width: 835px;
+	min-width: 962px;
 }
 
 h2 {
