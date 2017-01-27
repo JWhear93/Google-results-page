@@ -316,6 +316,11 @@ a .searchimg:hover {
 	border: 1px solid #ccccccb3;
 	padding: 2px 25px;
 	border-radius: 2px;
+	opacity: .7;
+}
+
+.cog:hover {
+	opacity: 1;
 }
 
 .foot {
