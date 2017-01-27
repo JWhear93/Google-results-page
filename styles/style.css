@@ -108,7 +108,7 @@ a #sign-in:hover {
 }
 
 .nav1 {
-	margin-left: 160px;
+	margin-left: 150px;
 	height: 30px;
 }
 
@@ -158,13 +158,13 @@ a #sign-in:hover {
 
 .sepcont {
 	width: 250px;
-	margin: 20px 0 0 180px;
+	margin: 20px 0 0 160px;
 	font-size: 12px;
 	color: grey;
 }
 
 .rescontent {
-	width: 640px;
+	width: 630px;
 	margin-left: 160px;
 }
 
