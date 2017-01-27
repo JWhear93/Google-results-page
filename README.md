@@ -1,1 +1,1 @@
-Google results page practice.
+Google search results page (made for course practice.)
